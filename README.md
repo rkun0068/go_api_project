@@ -60,7 +60,7 @@ go run main.go
 ```
 查询并不存在的数据
 
-** GET **`http://127.0.0.1:8080/books/5`
+**GET**`http://127.0.0.1:8080/books/5`
 返回格式
 ```json
 {
@@ -85,7 +85,7 @@ go run main.go
 }
 ```
 
-**PATCH **`[http://127.0.0.1:8080/return?id=2](http://127.0.0.1:8080/return?id=2)` 增添书本数量
+**PATCH**`[http://127.0.0.1:8080/return?id=2](http://127.0.0.1:8080/return?id=2)` 增添书本数量
 ```json
 {
     "id": "2",
